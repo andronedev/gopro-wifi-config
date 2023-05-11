@@ -7,7 +7,7 @@ Cette application permet de configurer le nom et le mot de passe du réseau wifi
 * Un ordinateur sous Windows
 
 ## Installation & Utilisation
-* Télécharger le fichier [gopro_wifi_config.zip]()
+* Télécharger le fichier [gopro_wifi_config.zip](https://github.com/andronedev/gopro-wifi-config/releases/latest/download/gopro_wifi_config.zip)
 * Décompresser le fichier
 * Exécuter le fichier `gopro_wifi_config.exe`
 * Suivre les instructions
