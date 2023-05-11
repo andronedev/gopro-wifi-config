@@ -1,6 +1,6 @@
 # Gopro Hero 3+ Wifi Configuration
 <div style="display: flex; justify-content: center;">
-  <img src="https://github.com/andronedev/gopro-wifi-config/assets/31452517/cab28239-e6c0-43de-b9db-030e0197a6f4" width="400" alt="Description de l'image">
+  <img src="https://i.imgur.com/G90Jm3a.png" width="400" alt="Description de l'image">
 </div>
 
 ## Introduction
