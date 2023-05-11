@@ -1,16 +1,23 @@
-# goproreset
+# Gopro Hero 3+ Wifi Configuration
+## Introduction
+Cette application permet de configurer le nom et le mot de passe du réseau wifi de la caméra GoPro Hero 3+.
+## Prérequis
+* Une caméra GoPro Hero 3+ (Silver ou Black)
+* Une carte SD
+* Un ordinateur sous Windows
 
-A new Flutter project.
+## Installation & Utilisation
+* Télécharger le fichier [gopro_wifi_config.zip]()
+* Décompresser le fichier
+* Exécuter le fichier `gopro_wifi_config.exe`
+* Suivre les instructions
+* Insérer la carte SD dans la caméra
+* Allumer la caméra
+* C'est fini !
 
-## Getting Started
+## Remerciements
+* [flutter](https://flutter.dev/)
+* [andronedev](https://github.com/andronedev/gopro-wifi-config)
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
