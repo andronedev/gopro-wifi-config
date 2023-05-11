@@ -1,3 +1,5 @@
+name: Build and Release
+
 on:
   workflow_dispatch:
 
@@ -5,12 +7,12 @@ jobs:
   build:
     runs-on: windows-latest
     steps:
-      - uses: actions/checkout@v3
-      - uses: subosito/flutter-action@v2
+      - uses: actions/checkout@v2
+      - uses: subosito/flutter-action@v1
         with:
           channel: 'beta'
       - run: flutter config --enable-windows-desktop
-      - run: flutter build windows
+      - run: flutter build windows --release
       - name: Create Release
         id: create_release
         uses: actions/create-release@v1
@@ -28,6 +30,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./build/windows/release/app.exe
+          asset_path: ./build/windows/runner/Release/app.exe
           asset_name: app.exe
           asset_content_type: application/octet-stream
