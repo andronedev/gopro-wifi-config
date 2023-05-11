@@ -3,7 +3,6 @@
   <img src="https://github.com/andronedev/gopro-wifi-config/assets/31452517/cab28239-e6c0-43de-b9db-030e0197a6f4" width="400" alt="Description de l'image">
 </div>
 
-
 ## Introduction
 Cette application permet de configurer le nom et le mot de passe du réseau wifi de la caméra GoPro Hero 3+.
 ## Prérequis
